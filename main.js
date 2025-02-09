@@ -23,6 +23,13 @@ function getFetch(){
         document.querySelector('h2').innerText = data.event[0].strEvent
         document.querySelector('h3').innerText = data.event[0].strFilename
         document.querySelector('#leagueBadge').src = data.event[0].strLeagueBadge
+        document.querySelector('h4').innerText = data.event[0].strVenue
+        document.querySelector('#awayTeamBadge').src = data.event[0].strAwayTeamBadge
+        document.querySelector('#homeTeamBadge').src = data.event[0].strHomeTeamBadge
+        document.querySelector('#homeTeamName').innerText = data.event[0].strHomeTeam
+        document.querySelector('#homeTeamScore').innerText = data.event[0].intHomeScore
+        document.querySelector('#awayTeamName').innerText = data.event[0].strAwayTeam
+        document.querySelector('#awayTeamScore').innerText = data.event[0].intAwayScore
       })
       .catch(err => {
           console.log(`error ${err}`)
