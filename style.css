@@ -1,0 +1,17 @@
+
+#leagueBadge{
+    height: 10%;
+    width: 5%;
+
+}
+.titleCards{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.inputsForTeams{
+    display: flex;
+    justify-content: center;
+    flex-basis: 10%;
+    padding: 2% 10%;
+}
