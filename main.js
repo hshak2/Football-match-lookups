@@ -1,4 +1,9 @@
+document.querySelector('.scores').classList.toggle('hidden')
 document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('button').addEventListener('click', turnOff)
+function turnOff(){
+    document.querySelector('.scores').classList.toggle('hidden')
+}
 
 function getFetch(){
   const choice = document.querySelector('#teamOne').value

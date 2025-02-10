@@ -16,6 +16,46 @@
     padding: 2% 10%;
 }
 #homeTeamBadge, #awayTeamBadge{
-    height: 10%;
-    width: 5%;
+    height: 15%;
+    width: 10%;    
+    padding: 10% 0;
+}
+.mainTeams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.scores{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+
+}
+body{
+    background: no-repeat center/100% url('vienna-reyes-qCrKTET_09o-unsplash\ \(1\).jpg');
+    color: white;
+}
+label{
+    border: white solid 2px;
+    background-color: white;
+    color: black;
+}
+section > section{
+    background: url(another.png) center no-repeat;
+    width: 50%;
+
+
+
+}
+section > section > img{
+    width: 10%;
+    height: 5%;
+}
+.hidden{
+    display: none;
 }
