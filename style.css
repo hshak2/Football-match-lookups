@@ -51,8 +51,6 @@ section > section{
     background: url(another.png) center no-repeat;
     width: 50%;
 
-
-
 }
 section > section > img{
     width: 10%;
@@ -60,4 +58,10 @@ section > section > img{
 }
 .hidden{
     display: none;
+}
+@media screen and (max-width: 1550px){
+    body{
+        background: no-repeat top/120% url('vienna-reyes-qCrKTET_09o-unsplash\ \(1\).jpg');
+        background-color: black;
+    }
 }
