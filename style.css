@@ -25,6 +25,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: gold;
 }
 
 .scores{
@@ -40,6 +41,7 @@ body{
     background: no-repeat center/100% url('vienna-reyes-qCrKTET_09o-unsplash\ \(1\).jpg');
     color: white;
 }
+
 label{
     border: white solid 2px;
     background-color: white;
